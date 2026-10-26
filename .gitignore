@@ -1,0 +1,19 @@
+# Never commit local runtime or authentication state
+runtime/
+DesktopCommanderAutoReconnect/
+node_modules/
+*.log
+*.tmp
+*.pid
+*.lnk
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+*.p12
+*password*
+*parola*
+!LICENSE
+.DS_Store
+Thumbs.db
